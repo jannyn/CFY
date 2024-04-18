@@ -139,7 +139,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Resources">
+                                <buttonConfiguration key="configuration" style="filled" title="Tutoring Form">
                                     <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="32"/>
                                 </buttonConfiguration>
                             </button>
@@ -148,7 +148,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Workshops">
+                                <buttonConfiguration key="configuration" style="filled" title="Quality Standards">
                                     <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="32"/>
                                 </buttonConfiguration>
                             </button>
@@ -157,7 +157,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Activity Training">
+                                <buttonConfiguration key="configuration" style="filled" title="Training Webinars">
                                     <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="32"/>
                                 </buttonConfiguration>
                             </button>

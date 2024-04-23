@@ -6,16 +6,25 @@
 //
 
 import UIKit
+import WebKit
 
-class MaterialsViewController: UIViewController {
-
+class MaterialsViewController: UIViewController, WKNavigationDelegate {
+    //var trainingWebinars: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
+    //Mostly a test can probably delete
+//    @IBAction func loadWebinar(_ sender: Any) {
+//        trainingWebinars = WKWebView()
+//        trainingWebinars.navigationDelegate = self
+//        view = trainingWebinars
+//        let url = URL(string: "https://collectiveforyouth.org/on-line-learning-opportunities/")
+//        trainingWebinars.load(URLRequest(url: url!))
+//        trainingWebinars.allowsBackForwardNavigationGestures = true
+//    }
+//
     
-
     /*
     // MARK: - Navigation
 

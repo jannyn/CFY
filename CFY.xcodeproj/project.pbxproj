@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29FD9BFF2BD83A7400748996 /* WebinarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD9BFE2BD83A7400748996 /* WebinarsViewController.swift */; };
+		29FD9C012BD841FF00748996 /* TutoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD9C002BD841FF00748996 /* TutoringViewController.swift */; };
+		29FD9C032BD84CDE00748996 /* QualityStandardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD9C022BD84CDE00748996 /* QualityStandardsViewController.swift */; };
 		AD07213E2BCC775400D90A41 /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07213D2BCC775400D90A41 /* NewsletterViewController.swift */; };
 		AD0721402BCC777100D90A41 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07213F2BCC777100D90A41 /* FeedbackViewController.swift */; };
 		AD0721422BCC779200D90A41 /* MaterialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0721412BCC779200D90A41 /* MaterialsViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29FD9BFE2BD83A7400748996 /* WebinarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebinarsViewController.swift; path = CFY/WebinarsViewController.swift; sourceTree = "<group>"; };
+		29FD9C002BD841FF00748996 /* TutoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoringViewController.swift; sourceTree = "<group>"; };
+		29FD9C022BD84CDE00748996 /* QualityStandardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QualityStandardsViewController.swift; path = CFY/QualityStandardsViewController.swift; sourceTree = "<group>"; };
 		AD07213D2BCC775400D90A41 /* NewsletterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
 		AD07213F2BCC777100D90A41 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		AD0721412BCC779200D90A41 /* MaterialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +52,9 @@
 		AD08B0D22BBCCE3800F7DBC9 = {
 			isa = PBXGroup;
 			children = (
+				29FD9C022BD84CDE00748996 /* QualityStandardsViewController.swift */,
+				29FD9C002BD841FF00748996 /* TutoringViewController.swift */,
+				29FD9BFE2BD83A7400748996 /* WebinarsViewController.swift */,
 				AD08B0DD2BBCCE3800F7DBC9 /* CFY */,
 				AD08B0DC2BBCCE3800F7DBC9 /* Products */,
 			);
@@ -149,8 +158,11 @@
 			files = (
 				AD08B0E32BBCCE3800F7DBC9 /* HomepageViewController.swift in Sources */,
 				AD07213E2BCC775400D90A41 /* NewsletterViewController.swift in Sources */,
+				29FD9C012BD841FF00748996 /* TutoringViewController.swift in Sources */,
 				AD08B0DF2BBCCE3800F7DBC9 /* AppDelegate.swift in Sources */,
+				29FD9BFF2BD83A7400748996 /* WebinarsViewController.swift in Sources */,
 				AD0721422BCC779200D90A41 /* MaterialsViewController.swift in Sources */,
+				29FD9C032BD84CDE00748996 /* QualityStandardsViewController.swift in Sources */,
 				AD0721402BCC777100D90A41 /* FeedbackViewController.swift in Sources */,
 				AD08B0E12BBCCE3800F7DBC9 /* SceneDelegate.swift in Sources */,
 			);

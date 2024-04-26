@@ -6,11 +6,22 @@
 //
 
 import UIKit
+import WebKit
 
-class FeedbackViewController: UIViewController {
-// hi guys
+class FeedbackViewController: UIViewController, WKNavigationDelegate {
+    
+    var webView: WKWebView!
+    
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self
+        view = webView
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScO0NPinwbH0CxO3J6_GgOZxmYSP-risDfFLqZrxg-r1npj7Q/viewform?usp=sf_link")
+        webView.load(URLRequest(url: url!))
+        webView.allowsBackForwardNavigationGestures = true
 
         // Do any additional setup after loading the view.
     }

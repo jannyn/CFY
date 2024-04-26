@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@collectiveforyouth.org | (402)-932-2025" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0M-ED-KHL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@collectiveforyouth.org | (402)-932-2025" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0M-ED-KHL" userLabel="Contact label">
                                 <rect key="frame" x="20" y="795" width="353" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="H0M-ED-KHL" secondAttribute="height" multiplier="353:23" id="I3p-g1-LBL"/>
@@ -37,30 +37,27 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3a-wD-1S2">
                                         <rect key="frame" x="0.0" y="0.0" width="293" height="65.666666666666671"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Newsletter" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
                                             <color key="baseBackgroundColor" red="0.34117650989999998" green="0.1607843041" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="FVj-kh-TCL" kind="show" id="XTA-p8-Od5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO7-E0-OA6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO7-E0-OA6" userLabel="Feedback button">
                                         <rect key="frame" x="0.0" y="105.66666666666663" width="293" height="65.666666666666686"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Feedback" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
                                             <color key="baseBackgroundColor" red="0.87450981139999995" green="0.4352940917" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="Aoy-AA-Zfz" kind="show" id="WUZ-F3-Gme"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbf-LS-lmO">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbf-LS-lmO" userLabel="Materials button">
                                         <rect key="frame" x="0.0" y="211.33333333333337" width="293" height="65.666666666666686"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Materials" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
                                             <color key="baseBackgroundColor" red="0.3686274886" green="0.6784313917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -69,27 +66,58 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Newsletter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pK0-KW-YYd">
+                                <rect key="frame" x="54" y="434.33333333333331" width="285" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXG-RX-LsU">
+                                <rect key="frame" x="83" y="540" width="227" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Materials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQx-8t-xKn">
+                                <rect key="frame" x="84.333333333333329" y="645.66666666666663" width="224.33333333333337" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="71P-CW-1E2" firstAttribute="top" secondItem="v27-7H-mcP" secondAttribute="bottom" constant="40" id="08K-cs-0Jq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H0M-ED-KHL" secondAttribute="trailing" constant="20" id="0I7-dP-OZQ"/>
+                            <constraint firstItem="pK0-KW-YYd" firstAttribute="width" secondItem="i3a-wD-1S2" secondAttribute="height" multiplier="282:65" id="2CB-Ta-9IE"/>
                             <constraint firstItem="H0M-ED-KHL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3db-QJ-SHF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="71P-CW-1E2" secondAttribute="trailing" constant="50" id="5KL-4H-a2q"/>
+                            <constraint firstItem="BXG-RX-LsU" firstAttribute="centerX" secondItem="WO7-E0-OA6" secondAttribute="centerX" id="7BP-8L-AJE"/>
                             <constraint firstItem="71P-CW-1E2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1c-bB-vdq"/>
+                            <constraint firstItem="BXG-RX-LsU" firstAttribute="centerY" secondItem="WO7-E0-OA6" secondAttribute="centerY" id="C0x-aC-MgA"/>
+                            <constraint firstItem="BXG-RX-LsU" firstAttribute="width" secondItem="WO7-E0-OA6" secondAttribute="height" multiplier="225:65" id="Equ-B8-nhq"/>
+                            <constraint firstItem="NQx-8t-xKn" firstAttribute="centerY" secondItem="fbf-LS-lmO" secondAttribute="centerY" id="Jv1-y3-HAF"/>
                             <constraint firstAttribute="trailing" secondItem="v27-7H-mcP" secondAttribute="trailing" constant="-58" id="Xrj-4I-dS9"/>
+                            <constraint firstItem="NQx-8t-xKn" firstAttribute="centerX" secondItem="fbf-LS-lmO" secondAttribute="centerX" id="cOg-1H-M1R"/>
+                            <constraint firstItem="NQx-8t-xKn" firstAttribute="width" secondItem="fbf-LS-lmO" secondAttribute="height" multiplier="222:65" id="dg8-Mf-KoC"/>
                             <constraint firstItem="H0M-ED-KHL" firstAttribute="top" secondItem="71P-CW-1E2" secondAttribute="bottom" constant="100" id="di9-HR-gAU"/>
                             <constraint firstItem="v27-7H-mcP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-37" id="e8j-OD-pqv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H0M-ED-KHL" secondAttribute="bottom" id="hhY-zX-HXl"/>
                             <constraint firstItem="v27-7H-mcP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-10" id="i83-al-V3t"/>
                             <constraint firstItem="71P-CW-1E2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iQm-Z3-zSa"/>
+                            <constraint firstItem="pK0-KW-YYd" firstAttribute="centerX" secondItem="i3a-wD-1S2" secondAttribute="centerX" id="jZT-AX-2UE"/>
+                            <constraint firstItem="pK0-KW-YYd" firstAttribute="centerY" secondItem="i3a-wD-1S2" secondAttribute="centerY" id="wpP-XU-5Q3"/>
                             <constraint firstItem="H0M-ED-KHL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xfo-z7-Hdj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qUq-wf-ERd"/>
                     <connections>
+                        <outlet property="contact_label" destination="H0M-ED-KHL" id="qlt-3H-NLU"/>
+                        <outlet property="feedback_label" destination="BXG-RX-LsU" id="ztP-eF-7Lu"/>
+                        <outlet property="materials_label" destination="NQx-8t-xKn" id="L6P-eb-bPd"/>
                         <outlet property="newsletter_button" destination="i3a-wD-1S2" id="XBt-tJ-L6k"/>
+                        <outlet property="newsletter_label" destination="pK0-KW-YYd" id="ytL-VS-LZB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

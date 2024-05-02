@@ -149,14 +149,27 @@
                     <view key="view" contentMode="scaleToFill" id="5IQ-Tv-RIr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cfyNewsletter" translatesAutoresizingMaskIntoConstraints="NO" id="Zi3-UR-Nac">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lz0-qm-J95"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zi3-UR-Nac" firstAttribute="leading" secondItem="5IQ-Tv-RIr" secondAttribute="leading" id="9go-na-EOe"/>
+                            <constraint firstItem="Zi3-UR-Nac" firstAttribute="top" secondItem="5IQ-Tv-RIr" secondAttribute="top" id="dEb-sX-KVd"/>
+                            <constraint firstItem="Zi3-UR-Nac" firstAttribute="centerX" secondItem="5IQ-Tv-RIr" secondAttribute="centerX" id="dfQ-eC-gQQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Zi3-UR-Nac" secondAttribute="trailing" id="nfm-MK-H9g"/>
+                            <constraint firstAttribute="bottom" secondItem="Zi3-UR-Nac" secondAttribute="bottom" id="oqi-lh-x2e"/>
+                            <constraint firstItem="Zi3-UR-Nac" firstAttribute="centerY" secondItem="5IQ-Tv-RIr" secondAttribute="centerY" id="wZb-KA-jXG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eqc-gJ-GXC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrt-r5-rVK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="750"/>
+            <point key="canvasLocation" x="52.671755725190835" y="750"/>
         </scene>
         <!--Feedback View Controller-->
         <scene sceneID="9Ut-ga-1I3">
@@ -229,6 +242,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cfyNewsletter" width="1545" height="2000"/>
         <image name="logo" width="860" height="285"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

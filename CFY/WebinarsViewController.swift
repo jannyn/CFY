@@ -9,6 +9,15 @@ import UIKit
 import WebKit
 
 class WebinarsViewController: UIViewController, WKNavigationDelegate {
+    @IBOutlet weak var intro_label: UILabel!
+    @IBOutlet weak var building_label: UILabel!
+    @IBOutlet weak var ask_label: UILabel!
+    @IBOutlet weak var reframing_label: UILabel!
+    @IBOutlet weak var structure_label: UILabel!
+    @IBOutlet weak var OPS_label: UILabel!
+    @IBOutlet weak var select_webinar_label: UILabel!
+    let relative_font_constant: CGFloat = 0.030
+    
     var participatoryApproach: WKWebView!
     var buildingCommunity: WKWebView!
     var askListenEncourage: WKWebView!
@@ -17,7 +26,14 @@ class WebinarsViewController: UIViewController, WKNavigationDelegate {
     var opsFoodCertificationTraining: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        intro_label.font = intro_label.font.withSize(self.view.frame.height * relative_font_constant)
+        building_label.font = building_label.font.withSize(self.view.frame.height * relative_font_constant)
+        ask_label.font = ask_label.font.withSize(self.view.frame.height * relative_font_constant)
+        reframing_label.font = reframing_label.font.withSize(self.view.frame.height * relative_font_constant)
+        structure_label.font = structure_label.font.withSize(self.view.frame.height * relative_font_constant)
+        OPS_label.font = OPS_label.font.withSize(self.view.frame.height * relative_font_constant)
+        select_webinar_label.font = select_webinar_label.font.withSize(self.view.frame.height * relative_font_constant)
+        
         // Do any additional setup after loading the view.
     }
     @IBAction func PartcipatoryApproachLoad(_ sender: Any) {

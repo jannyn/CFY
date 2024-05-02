@@ -1,14 +1,14 @@
 //
-//  FeedbackViewController.swift
+//  TutoringViewController.swift
 //  CFY
 //
-//  Created by Janny Nguyen on 4/14/24.
+//  Created by Leo Pechous on 4/23/24.
 //
 
 import UIKit
 import WebKit
 
-class FeedbackViewController: UIViewController, WKNavigationDelegate {
+class TutoringViewController: UIViewController, WKNavigationDelegate {
     
     var webView: WKWebView!
     
@@ -19,7 +19,7 @@ class FeedbackViewController: UIViewController, WKNavigationDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScO0NPinwbH0CxO3J6_GgOZxmYSP-risDfFLqZrxg-r1npj7Q/viewform?usp=sf_link")
+        let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScGwKpJVpc8DzK1_CzIrXSqQTpKcSG0Jr_HaMtBReXJD6N0DA/viewform")
         webView.load(URLRequest(url: url!))
         webView.allowsBackForwardNavigationGestures = true
 

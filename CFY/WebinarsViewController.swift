@@ -16,7 +16,8 @@ class WebinarsViewController: UIViewController, WKNavigationDelegate {
     @IBOutlet weak var structure_label: UILabel!
     @IBOutlet weak var OPS_label: UILabel!
     @IBOutlet weak var select_webinar_label: UILabel!
-    let relative_font_constant: CGFloat = 0.030
+    let relative_font_constant1: CGFloat = 0.030
+    let relative_font_constant2: CGFloat = 0.020
     
     var participatoryApproach: WKWebView!
     var buildingCommunity: WKWebView!
@@ -26,13 +27,13 @@ class WebinarsViewController: UIViewController, WKNavigationDelegate {
     var opsFoodCertificationTraining: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        intro_label.font = intro_label.font.withSize(self.view.frame.height * relative_font_constant)
-        building_label.font = building_label.font.withSize(self.view.frame.height * relative_font_constant)
-        ask_label.font = ask_label.font.withSize(self.view.frame.height * relative_font_constant)
-        reframing_label.font = reframing_label.font.withSize(self.view.frame.height * relative_font_constant)
-        structure_label.font = structure_label.font.withSize(self.view.frame.height * relative_font_constant)
-        OPS_label.font = OPS_label.font.withSize(self.view.frame.height * relative_font_constant)
-        select_webinar_label.font = select_webinar_label.font.withSize(self.view.frame.height * relative_font_constant)
+        intro_label.font = intro_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        building_label.font = building_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        ask_label.font = ask_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        reframing_label.font = reframing_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        structure_label.font = structure_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        OPS_label.font = OPS_label.font.withSize(self.view.frame.height * relative_font_constant1)
+        select_webinar_label.font = select_webinar_label.font.withSize(self.view.frame.height * relative_font_constant2)
         
         // Do any additional setup after loading the view.
     }
